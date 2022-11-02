@@ -13,7 +13,6 @@ from matplotlib.ticker import (MultipleLocator, AutoMinorLocator)
 
 import seaborn as sns
 
-import sklearn
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.decomposition import PCA, NMF
 from sklearn import metrics
@@ -23,14 +22,8 @@ pd.set_option('display.max_columns', None)
 
 sns.set_context('paper')
 
-with open("config.json", "rb") as f:
-    config = json.load(f)
-repo_path = config['repositoryPath']
-data_path = ospj(repo_path, 'data')
-figure_path = ospj(repo_path, 'figures')
-
-ANDY_MODELS = True
-
+ANDY_MODELS = False
+data_path = "../data/metadata"
 # load in seizure metadata
 if ANDY_MODELS:
     sz_metadata_original = pd.read_excel(ospj(data_path, "seizure_metadata_with_atlas_spread.xlsx"), index_col=0)
