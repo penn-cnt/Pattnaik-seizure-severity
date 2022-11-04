@@ -3,7 +3,7 @@
 # platform: osx-64
 @EXPLICIT
 https://repo.anaconda.com/pkgs/main/osx-64/blas-1.0-mkl.conda
-https://repo.anaconda.com/pkgs/main/osx-64/ca-certificates-2022.07.19-hecd8cb5_0.conda
+https://repo.anaconda.com/pkgs/main/osx-64/ca-certificates-2022.10.11-hecd8cb5_0.conda
 https://repo.anaconda.com/pkgs/main/osx-64/fftw-3.3.9-h9ed2024_1.conda
 https://repo.anaconda.com/pkgs/main/osx-64/intel-openmp-2021.4.0-hecd8cb5_3538.conda
 https://repo.anaconda.com/pkgs/main/osx-64/libcxx-14.0.6-h9765a3e_0.conda
@@ -37,6 +37,7 @@ https://conda.anaconda.org/conda-forge/noarch/pyparsing-3.0.9-pyhd8ed1ab_0.tar.b
 https://conda.anaconda.org/conda-forge/osx-64/python_abi-3.7-2_cp37m.tar.bz2
 https://repo.anaconda.com/pkgs/main/osx-64/pytz-2022.1-py37hecd8cb5_0.conda
 https://conda.anaconda.org/conda-forge/noarch/six-1.16.0-pyh6c4a22f_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/osx-64/tqdm-4.64.1-py37hecd8cb5_0.conda
 https://conda.anaconda.org/conda-forge/noarch/traitlets-5.5.0-pyhd8ed1ab_0.tar.bz2
 https://repo.anaconda.com/pkgs/main/noarch/wheel-0.37.1-pyhd3eb1b0_0.conda
 https://conda.anaconda.org/conda-forge/osx-64/debugpy-1.6.3-py37hf6dfe07_0.tar.bz2

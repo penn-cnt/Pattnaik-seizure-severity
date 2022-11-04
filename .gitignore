@@ -1,5 +1,6 @@
 *ieeglogin.bin
 data/HUP*
+ieeg_credentials.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

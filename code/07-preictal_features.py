@@ -18,7 +18,7 @@ data_path = "../data/"
 
 # credentials
 USERNAME = json.load(open("../ieeg_credentials.json", "rb"))['usr']
-PWD_BIN_FILE = glob.glob("../*ieeglogin.bin")[0]
+PWD_BIN_FILE = json.load(open("../ieeg_credentials.json", "rb"))['pwd_bin']
 
 NEW_FS = 200
 

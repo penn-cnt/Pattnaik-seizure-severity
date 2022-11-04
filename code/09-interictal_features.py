@@ -17,7 +17,8 @@ import tools
 data_path = "../data/"
 # credentials
 USERNAME = json.load(open("../ieeg_credentials.json", "rb"))['usr']
-PWD_BIN_FILE = glob.glob("../*ieeglogin.bin")[0]
+PWD_BIN_FILE = json.load(open("../ieeg_credentials.json", "rb"))['pwd_bin']
+
 #%%
 sz_metadata = pd.read_excel(ospj(data_path, "metadata", "seizure_metadata_with_severity.xlsx"), index_col=0)
 table = sz_metadata[['Patient', 'iEEG Filename']].drop_duplicates()
